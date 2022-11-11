@@ -20,7 +20,7 @@ int main(int argc, char **argv)
 
     int page[physPages]; //Create the page frames
     int lastAccessed[physPages]; //Create a list of when a page frame was last accessed
-    for(int i = 0; i < physPages; i++) //Initialize all elements both arrays to -1.
+    for(int i = 0; i < physPages; i++) //Initialize all elements in both arrays to -1.
     {
         page[i] = -1;
         lastAccessed[i] = -1;
